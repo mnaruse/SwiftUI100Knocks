@@ -148,6 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 462034D828B0E46D00540D3A /* Build configuration list for PBXNativeTarget "SwiftUI100Knocks (iOS)" */;
 			buildPhases = (
+				462034E428B0E97A00540D3A /* Run Script For SwiftFormat */,
 				462034AB28B0E46D00540D3A /* Sources */,
 				462034AC28B0E46D00540D3A /* Frameworks */,
 				462034AD28B0E46D00540D3A /* Resources */,
@@ -293,6 +294,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		462034E428B0E97A00540D3A /* Run Script For SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script For SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd BuildTools\nSDKROOT=(xcrun --sdk macosx --show-sdk-path)\n#swift package update #Uncomment this line temporarily to update the version used to the latest matching your BuildTools/Package.swift file\nswift run -c release swiftformat \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		462034AB28B0E46D00540D3A /* Sources */ = {
