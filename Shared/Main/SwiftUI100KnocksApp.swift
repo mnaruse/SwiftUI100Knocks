@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUI100KnocksApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            NavigationView {
+                HomeView()
+            }
         }
     }
 }
