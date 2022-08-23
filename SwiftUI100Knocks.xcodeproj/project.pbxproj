@@ -13,6 +13,7 @@
 		460572F928B535CE00C46366 /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = 460572E928B535CE00C46366 /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		460572FC28B535CE00C46366 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460572E728B535CE00C46366 /* Domain.framework */; };
 		460572FE28B535CE00C46366 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 460572E728B535CE00C46366 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4605731D28B5603700C46366 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4605731C28B5603700C46366 /* SDWebImageSwiftUI */; };
 		462034C128B0E46D00540D3A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034C028B0E46D00540D3A /* Tests_iOS.swift */; };
 		462034C328B0E46D00540D3A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034C228B0E46D00540D3A /* Tests_iOSLaunchTests.swift */; };
 		462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034A828B0E46A00540D3A /* SwiftUI100KnocksApp.swift */; };
@@ -100,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4605731D28B5603700C46366 /* SDWebImageSwiftUI in Frameworks */,
 				460572FC28B535CE00C46366 /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +281,9 @@
 				460572FB28B535CE00C46366 /* PBXTargetDependency */,
 			);
 			name = "SwiftUI100Knocks (iOS)";
+			packageProductDependencies = (
+				4605731C28B5603700C46366 /* SDWebImageSwiftUI */,
+			);
 			productName = "SwiftUI100Knocks (iOS)";
 			productReference = 462034AF28B0E46D00540D3A /* SwiftUI100Knocks.app */;
 			productType = "com.apple.product-type.application";
@@ -336,6 +341,9 @@
 				Base,
 			);
 			mainGroup = 462034A228B0E46A00540D3A;
+			packageReferences = (
+				4605731B28B5603700C46366 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 462034B028B0E46D00540D3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -820,6 +828,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4605731B28B5603700C46366 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4605731C28B5603700C46366 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4605731B28B5603700C46366 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 462034A328B0E46A00540D3A /* Project object */;
 }
