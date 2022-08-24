@@ -10,8 +10,11 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         List {
-            Text("Hello, world!")
-                .padding()
+            Section(header: Text("簡単")) {
+                NavigationLink(destination: ResizeImageToFitView()) {
+                    Text("画像をリサイズして表示(fit)")
+                }
+            }
         }
         .navigationTitle("100本ノック")
     }
