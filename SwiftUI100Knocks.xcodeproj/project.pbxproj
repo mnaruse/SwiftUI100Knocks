@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2870F77928B665D100718060 /* ResizeImageToFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870F77828B665D100718060 /* ResizeImageToFitView.swift */; };
 		460572EB28B535CE00C46366 /* Domain.docc in Sources */ = {isa = PBXBuildFile; fileRef = 460572EA28B535CE00C46366 /* Domain.docc */; };
 		460572F128B535CE00C46366 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460572E728B535CE00C46366 /* Domain.framework */; };
 		460572F828B535CE00C46366 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460572F728B535CE00C46366 /* DomainTests.swift */; };
@@ -67,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2870F77828B665D100718060 /* ResizeImageToFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageToFitView.swift; sourceTree = "<group>"; };
 		460572E728B535CE00C46366 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		460572E928B535CE00C46366 /* Domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
 		460572EA28B535CE00C46366 /* Domain.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Domain.docc; sourceTree = "<group>"; };
@@ -116,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2870F77728B665B400718060 /* ResizeImageToFit */ = {
+			isa = PBXGroup;
+			children = (
+				2870F77828B665D100718060 /* ResizeImageToFitView.swift */,
+			);
+			path = ResizeImageToFit;
+			sourceTree = "<group>";
+		};
 		460572E828B535CE00C46366 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				462034E928B0F09000540D3A /* Home */,
+				2870F77728B665B400718060 /* ResizeImageToFit */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -432,6 +443,7 @@
 			files = (
 				462034D228B0E46D00540D3A /* HomeView.swift in Sources */,
 				462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */,
+				2870F77928B665D100718060 /* ResizeImageToFitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
