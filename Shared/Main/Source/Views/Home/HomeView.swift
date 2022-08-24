@@ -14,6 +14,9 @@ struct HomeView: View {
                 NavigationLink(destination: ResizeImageToFitView()) {
                     Text("画像をリサイズして表示(fit)")
                 }
+                NavigationLink(destination: ResizeImageAndClipView()) {
+                    Text("画像をリサイズして表示(clip)")
+                }
             }
         }
         .navigationTitle("100本ノック")
