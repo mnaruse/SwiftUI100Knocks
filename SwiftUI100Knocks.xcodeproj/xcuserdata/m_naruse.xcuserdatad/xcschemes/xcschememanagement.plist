@@ -4,15 +4,42 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Domain.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SwiftUI100Knocks (iOS).xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>SwiftUI100Knocks (macOS).xcscheme_^#shared#^_</key>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>460572E628B535CE00C46366</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>460572EF28B535CE00C46366</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>462034AE28B0E46D00540D3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>462034BB28B0E46D00540D3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
