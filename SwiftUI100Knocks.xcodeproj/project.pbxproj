@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280B729E28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B729D28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift */; };
 		2870F77928B665D100718060 /* ResizeImageToFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870F77828B665D100718060 /* ResizeImageToFitView.swift */; };
 		2870F77C28B67A0C00718060 /* ResizeImageAndClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870F77B28B67A0C00718060 /* ResizeImageAndClipView.swift */; };
 		460572EB28B535CE00C46366 /* Domain.docc in Sources */ = {isa = PBXBuildFile; fileRef = 460572EA28B535CE00C46366 /* Domain.docc */; };
@@ -69,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		280B729D28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageToCircleWithBorderView.swift; sourceTree = "<group>"; };
 		2870F77828B665D100718060 /* ResizeImageToFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageToFitView.swift; sourceTree = "<group>"; };
 		2870F77B28B67A0C00718060 /* ResizeImageAndClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageAndClipView.swift; sourceTree = "<group>"; };
 		460572E728B535CE00C46366 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		280B729C28B83A87002966AE /* ResizeImageToCircleWithBorder */ = {
+			isa = PBXGroup;
+			children = (
+				280B729D28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift */,
+			);
+			path = ResizeImageToCircleWithBorder;
+			sourceTree = "<group>";
+		};
 		2870F77728B665B400718060 /* ResizeImageToFit */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +225,7 @@
 			children = (
 				462034E928B0F09000540D3A /* Home */,
 				2870F77A28B679EC00718060 /* ResizeImageAndClip */,
+				280B729C28B83A87002966AE /* ResizeImageToCircleWithBorder */,
 				2870F77728B665B400718060 /* ResizeImageToFit */,
 			);
 			path = Views;
@@ -455,6 +466,7 @@
 				462034D228B0E46D00540D3A /* HomeView.swift in Sources */,
 				462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */,
 				2870F77C28B67A0C00718060 /* ResizeImageAndClipView.swift in Sources */,
+				280B729E28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift in Sources */,
 				2870F77928B665D100718060 /* ResizeImageToFitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
