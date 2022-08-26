@@ -20,6 +20,9 @@ struct HomeView: View {
                 NavigationLink(destination: ResizeImageToCircleWithBorderView()) {
                     Text("画像を丸く切り取り、枠を付ける")
                 }
+                NavigationLink(destination: ImagesSideBySideView()) {
+                    Text("画像を横に等間隔に並べる")
+                }
             }
         }
         .navigationTitle("100本ノック")
