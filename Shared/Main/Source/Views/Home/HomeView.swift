@@ -17,6 +17,9 @@ struct HomeView: View {
                 NavigationLink(destination: ResizeImageAndClipView()) {
                     Text("画像をリサイズして表示(clip)")
                 }
+                NavigationLink(destination: ResizeImageToCircleWithBorderView()) {
+                    Text("画像を丸く切り取り、枠を付ける")
+                }
             }
         }
         .navigationTitle("100本ノック")
