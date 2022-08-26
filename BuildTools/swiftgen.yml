@@ -1,0 +1,13 @@
+input_dir: ../Shared/Main/Source/Resource
+output_dir: ../Shared/Main/Source/Generated
+strings:
+  - inputs: Localizable.strings
+    outputs:
+      - templateName: structured-swift5
+        output: L10n-Constants.swift
+xcassets:
+  inputs:
+    - Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: Assets-Constants.swift
