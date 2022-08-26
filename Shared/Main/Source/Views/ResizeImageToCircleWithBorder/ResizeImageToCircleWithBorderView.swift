@@ -24,6 +24,10 @@ struct ResizeImageToCircleWithBorderView: View {
             .scaledToFill()
             .frame(width: 150, height: 150, alignment: .top)
             .clipShape(Circle())
+            .overlay {
+                Circle()
+                    .stroke(.black, lineWidth: 4)
+            }
     }
 }
 
