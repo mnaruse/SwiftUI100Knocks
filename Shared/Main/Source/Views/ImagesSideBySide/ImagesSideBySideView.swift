@@ -9,7 +9,28 @@ import SwiftUI
 
 struct ImagesSideBySideView: View {
     var body: some View {
-        Text("Hello, world!")
+        HStack {
+            Asset.icon.swiftUIImage
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Spacer()
+            Asset.icon.swiftUIImage
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Spacer()
+            Asset.icon.swiftUIImage
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Spacer()
+            Asset.icon.swiftUIImage
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Spacer()
+            Asset.icon.swiftUIImage
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+        }
+        .padding()
     }
 }
 
