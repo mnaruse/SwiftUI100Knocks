@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		280B729E28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B729D28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift */; };
+		2821269E28B9BFF900053CEF /* HideNavigationViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821269D28B9BFF900053CEF /* HideNavigationViewView.swift */; };
 		2870F77928B665D100718060 /* ResizeImageToFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870F77828B665D100718060 /* ResizeImageToFitView.swift */; };
 		2870F77C28B67A0C00718060 /* ResizeImageAndClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870F77B28B67A0C00718060 /* ResizeImageAndClipView.swift */; };
 		287D25BA28B8FDB90000A5B7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 287D25B928B8FDB90000A5B7 /* Localizable.strings */; };
@@ -75,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		280B729D28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageToCircleWithBorderView.swift; sourceTree = "<group>"; };
+		2821269D28B9BFF900053CEF /* HideNavigationViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideNavigationViewView.swift; sourceTree = "<group>"; };
 		2870F77828B665D100718060 /* ResizeImageToFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageToFitView.swift; sourceTree = "<group>"; };
 		2870F77B28B67A0C00718060 /* ResizeImageAndClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageAndClipView.swift; sourceTree = "<group>"; };
 		287D25B928B8FDB90000A5B7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -136,6 +138,14 @@
 				280B729D28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift */,
 			);
 			path = ResizeImageToCircleWithBorder;
+			sourceTree = "<group>";
+		};
+		2821269C28B9BFDF00053CEF /* HideNavigationViewView */ = {
+			isa = PBXGroup;
+			children = (
+				2821269D28B9BFF900053CEF /* HideNavigationViewView.swift */,
+			);
+			path = HideNavigationViewView;
 			sourceTree = "<group>";
 		};
 		2870F77728B665B400718060 /* ResizeImageToFit */ = {
@@ -249,6 +259,7 @@
 		462034E728B0F03500540D3A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2821269C28B9BFDF00053CEF /* HideNavigationViewView */,
 				462034E928B0F09000540D3A /* Home */,
 				287D25C028B8FF330000A5B7 /* ImagesSideBySide */,
 				2870F77A28B679EC00718060 /* ResizeImageAndClip */,
@@ -516,6 +527,7 @@
 				2870F77C28B67A0C00718060 /* ResizeImageAndClipView.swift in Sources */,
 				287D25C228B8FF7F0000A5B7 /* ImagesSideBySideView.swift in Sources */,
 				287D25BF28B8FEA60000A5B7 /* Assets-Constants.swift in Sources */,
+				2821269E28B9BFF900053CEF /* HideNavigationViewView.swift in Sources */,
 				280B729E28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift in Sources */,
 				287D25BE28B8FEA60000A5B7 /* L10n-Constants.swift in Sources */,
 				2870F77928B665D100718060 /* ResizeImageToFitView.swift in Sources */,
