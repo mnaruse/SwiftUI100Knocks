@@ -23,6 +23,9 @@ struct HomeView: View {
                 NavigationLink(destination: ImagesSideBySideView()) {
                     Text("画像を横に等間隔に並べる")
                 }
+                NavigationLink(destination: HideNavigationViewView()) {
+                    Text("NavigationViewを隠す")
+                }
             }
         }
         .navigationTitle("100本ノック")
