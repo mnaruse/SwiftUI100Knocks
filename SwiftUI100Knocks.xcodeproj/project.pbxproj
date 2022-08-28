@@ -29,6 +29,7 @@
 		462034D428B0E46D00540D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462034AA28B0E46D00540D3A /* Assets.xcassets */; };
 		463F8A5128BB967E00EC146E /* PassValueBetweenScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */; };
 		46CC7CCE28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */; };
+		46CC7CD128BBA3D40016A7A8 /* Fluit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7CD028BBA3D40016A7A8 /* Fluit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		462034C228B0E46D00540D3A /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueBetweenScreensView.swift; sourceTree = "<group>"; };
 		46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueBetweenScreensDetailView.swift; sourceTree = "<group>"; };
+		46CC7CD028BBA3D40016A7A8 /* Fluit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fluit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 		460572E828B535CE00C46366 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				46CC7CCF28BBA3CB0016A7A8 /* Model */,
 				460572E928B535CE00C46366 /* Domain.h */,
 				460572EA28B535CE00C46366 /* Domain.docc */,
 			);
@@ -298,6 +301,14 @@
 				46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */,
 			);
 			path = PassValueBetweenScreens;
+			sourceTree = "<group>";
+		};
+		46CC7CCF28BBA3CB0016A7A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46CC7CD028BBA3D40016A7A8 /* Fluit.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -520,6 +531,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46CC7CD128BBA3D40016A7A8 /* Fluit.swift in Sources */,
 				460572EB28B535CE00C46366 /* Domain.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -799,6 +811,7 @@
 		462034D928B0E46D00540D3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -828,6 +841,7 @@
 		462034DA28B0E46D00540D3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
