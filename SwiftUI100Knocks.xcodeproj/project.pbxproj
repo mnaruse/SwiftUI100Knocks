@@ -28,6 +28,7 @@
 		462034D228B0E46D00540D3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034A928B0E46A00540D3A /* HomeView.swift */; };
 		462034D428B0E46D00540D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462034AA28B0E46D00540D3A /* Assets.xcassets */; };
 		463F8A5128BB967E00EC146E /* PassValueBetweenScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */; };
+		46CC7CCE28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		462034C028B0E46D00540D3A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		462034C228B0E46D00540D3A /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueBetweenScreensView.swift; sourceTree = "<group>"; };
+		46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueBetweenScreensDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */,
+				46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */,
 			);
 			path = PassValueBetweenScreens;
 			sourceTree = "<group>";
@@ -536,6 +539,7 @@
 				462034D228B0E46D00540D3A /* HomeView.swift in Sources */,
 				462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */,
 				2870F77C28B67A0C00718060 /* ResizeImageAndClipView.swift in Sources */,
+				46CC7CCE28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift in Sources */,
 				287D25C228B8FF7F0000A5B7 /* ImagesSideBySideView.swift in Sources */,
 				287D25BF28B8FEA60000A5B7 /* Assets-Constants.swift in Sources */,
 				2821269E28B9BFF900053CEF /* HideNavigationViewView.swift in Sources */,
