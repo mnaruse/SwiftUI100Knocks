@@ -26,6 +26,9 @@ struct HomeView: View {
                 NavigationLink(destination: HideNavigationViewView()) {
                     Text("NavigationViewを隠す")
                 }
+                NavigationLink(destination: PassValueBetweenScreensView()) {
+                    Text("画面遷移時に値を渡す")
+                }
             }
         }
         .navigationTitle("100本ノック")
