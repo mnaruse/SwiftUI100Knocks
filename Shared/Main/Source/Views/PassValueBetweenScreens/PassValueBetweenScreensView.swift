@@ -1,0 +1,20 @@
+//
+//  PassValueBetweenScreensView.swift
+//  SwiftUI100Knocks (iOS)
+//
+//  Created by 成瀬 未春 on 2022/08/28.
+//
+
+import SwiftUI
+
+struct PassValueBetweenScreensView: View {
+    var body: some View {
+        Text("Hello, world!")
+    }
+}
+
+struct PassValueBetweenScreensView_Previews: PreviewProvider {
+    static var previews: some View {
+        PassValueBetweenScreensView()
+    }
+}

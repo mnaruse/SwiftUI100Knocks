@@ -27,6 +27,7 @@
 		462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034A828B0E46A00540D3A /* SwiftUI100KnocksApp.swift */; };
 		462034D228B0E46D00540D3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034A928B0E46A00540D3A /* HomeView.swift */; };
 		462034D428B0E46D00540D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462034AA28B0E46D00540D3A /* Assets.xcassets */; };
+		463F8A5128BB967E00EC146E /* PassValueBetweenScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		462034BC28B0E46D00540D3A /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		462034C028B0E46D00540D3A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		462034C228B0E46D00540D3A /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueBetweenScreensView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				2821269C28B9BFDF00053CEF /* HideNavigationViewView */,
 				462034E928B0F09000540D3A /* Home */,
 				287D25C028B8FF330000A5B7 /* ImagesSideBySide */,
+				463F8A4F28BB964200EC146E /* PassValueBetweenScreens */,
 				2870F77A28B679EC00718060 /* ResizeImageAndClip */,
 				280B729C28B83A87002966AE /* ResizeImageToCircleWithBorder */,
 				2870F77728B665B400718060 /* ResizeImageToFit */,
@@ -284,6 +287,14 @@
 				462034A928B0E46A00540D3A /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		463F8A4F28BB964200EC146E /* PassValueBetweenScreens */ = {
+			isa = PBXGroup;
+			children = (
+				463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */,
+			);
+			path = PassValueBetweenScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -528,6 +539,7 @@
 				287D25C228B8FF7F0000A5B7 /* ImagesSideBySideView.swift in Sources */,
 				287D25BF28B8FEA60000A5B7 /* Assets-Constants.swift in Sources */,
 				2821269E28B9BFF900053CEF /* HideNavigationViewView.swift in Sources */,
+				463F8A5128BB967E00EC146E /* PassValueBetweenScreensView.swift in Sources */,
 				280B729E28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift in Sources */,
 				287D25BE28B8FEA60000A5B7 /* L10n-Constants.swift in Sources */,
 				2870F77928B665D100718060 /* ResizeImageToFitView.swift in Sources */,
