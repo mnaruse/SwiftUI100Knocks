@@ -29,6 +29,9 @@ struct HomeView: View {
                 NavigationLink(destination: PassValueBetweenScreensView()) {
                     Text("画面遷移時に値を渡す")
                 }
+                NavigationLink(destination: ShowPickerView()) {
+                    Text("Pickerを表示する")
+                }
             }
         }
         .navigationTitle("100本ノック")
