@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI",
       "state" : {
-        "revision" : "cd8625b7cf11a97698e180d28bb7d5d357196678",
-        "version" : "2.0.2"
+        "revision" : "83d46c08b5027727955fe83f67be4388c3aae65b",
+        "version" : "2.1.0"
       }
     }
   ],
