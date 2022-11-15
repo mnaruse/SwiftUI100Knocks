@@ -32,6 +32,9 @@ struct HomeView: View {
                 NavigationLink(destination: ShowPickerView()) {
                     Text("Pickerを表示する")
                 }
+                NavigationLink(destination: TripleTabView()) {
+                    Text("TabViewを使って画面を切り替える")
+                }
             }
         }
         .navigationTitle("100本ノック")
