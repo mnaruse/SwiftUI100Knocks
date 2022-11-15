@@ -13,6 +13,7 @@ struct TripleTabView: View {
     var body: some View {
         TabView {
             TabFirstView()
+                .badge(2)
                 .tabItem {
                     Label("First", systemImage: "tray.and.arrow.down.fill")
                 }
@@ -23,6 +24,7 @@ struct TripleTabView: View {
                 }
 
             TabThirdView()
+                .badge("あいう")
                 .tabItem {
                     Label("Third", systemImage: "person.crop.circle.fill")
                 }
