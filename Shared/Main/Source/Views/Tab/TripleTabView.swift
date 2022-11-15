@@ -11,7 +11,22 @@ import SwiftUI
 
 struct TripleTabView: View {
     var body: some View {
-        Text("Hello, world!")
+        TabView {
+            TabFirstView()
+                .tabItem {
+                    Label("First", systemImage: "tray.and.arrow.down.fill")
+                }
+
+            TabSecondView()
+                .tabItem {
+                    Label("Second", systemImage: "tray.and.arrow.up.fill")
+                }
+
+            TabThirdView()
+                .tabItem {
+                    Label("Third", systemImage: "person.crop.circle.fill")
+                }
+        }
     }
 }
 
