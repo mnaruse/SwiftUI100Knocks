@@ -26,6 +26,7 @@
 		460B4E922923BD0200B47C4F /* TabFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B4E912923BD0200B47C4F /* TabFirstView.swift */; };
 		460B4E942923BDC600B47C4F /* TabSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B4E932923BDC600B47C4F /* TabSecondView.swift */; };
 		460B4E962923BDCE00B47C4F /* TabThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B4E952923BDCE00B47C4F /* TabThirdView.swift */; };
+		460B4E992923C47A00B47C4F /* TapThenChangeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B4E982923C47A00B47C4F /* TapThenChangeTextView.swift */; };
 		462034C128B0E46D00540D3A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034C028B0E46D00540D3A /* Tests_iOS.swift */; };
 		462034C328B0E46D00540D3A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034C228B0E46D00540D3A /* Tests_iOSLaunchTests.swift */; };
 		462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034A828B0E46A00540D3A /* SwiftUI100KnocksApp.swift */; };
@@ -106,6 +107,7 @@
 		460B4E912923BD0200B47C4F /* TabFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFirstView.swift; sourceTree = "<group>"; };
 		460B4E932923BDC600B47C4F /* TabSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSecondView.swift; sourceTree = "<group>"; };
 		460B4E952923BDCE00B47C4F /* TabThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThirdView.swift; sourceTree = "<group>"; };
+		460B4E982923C47A00B47C4F /* TapThenChangeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapThenChangeTextView.swift; sourceTree = "<group>"; };
 		462034A828B0E46A00540D3A /* SwiftUI100KnocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnocksApp.swift; sourceTree = "<group>"; };
 		462034A928B0E46A00540D3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		462034AA28B0E46D00540D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -247,6 +249,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		460B4E972923C46400B47C4F /* TapThenChangeText */ = {
+			isa = PBXGroup;
+			children = (
+				460B4E982923C47A00B47C4F /* TapThenChangeTextView.swift */,
+			);
+			path = TapThenChangeText;
+			sourceTree = "<group>";
+		};
 		462034A228B0E46A00540D3A = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +327,7 @@
 				2870F77728B665B400718060 /* ResizeImageToFit */,
 				46CC7CD228BBA87B0016A7A8 /* ShowPicker */,
 				460B4E8D2923BB3D00B47C4F /* Tab */,
+				460B4E972923C46400B47C4F /* TapThenChangeText */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -628,6 +639,7 @@
 				46CC7CCE28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift in Sources */,
 				287D25C228B8FF7F0000A5B7 /* ImagesSideBySideView.swift in Sources */,
 				287D25BF28B8FEA60000A5B7 /* Assets-Constants.swift in Sources */,
+				460B4E992923C47A00B47C4F /* TapThenChangeTextView.swift in Sources */,
 				46C82B5328BC3BA7001AFF45 /* ShowInlinePickerView.swift in Sources */,
 				460B4E922923BD0200B47C4F /* TabFirstView.swift in Sources */,
 				460B4E942923BDC600B47C4F /* TabSecondView.swift in Sources */,

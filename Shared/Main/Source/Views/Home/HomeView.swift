@@ -35,6 +35,9 @@ struct HomeView: View {
                 NavigationLink(destination: TripleTabView()) {
                     Text("TabViewを使って画面を切り替える")
                 }
+                NavigationLink(destination: TapThenChangeTextView()) {
+                    Text("Buttonが押されたら文字を変える")
+                }
             }
         }
         .navigationTitle("100本ノック")
