@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct TapThenChangeTextView: View {
+    @State private var text: String = "Default"
+
     var body: some View {
-        Text("Hello, world")
+        VStack {
+            Text(text)
+
+            Button {
+                text = "Changed"
+            } label: {
+                Text("Tap Me")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent)
+        }
+        .padding()
     }
 }
 
