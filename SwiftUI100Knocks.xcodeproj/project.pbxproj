@@ -27,6 +27,7 @@
 		460B4E942923BDC600B47C4F /* TabSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B4E932923BDC600B47C4F /* TabSecondView.swift */; };
 		460B4E962923BDCE00B47C4F /* TabThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B4E952923BDCE00B47C4F /* TabThirdView.swift */; };
 		460B4E992923C47A00B47C4F /* TapThenChangeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B4E982923C47A00B47C4F /* TapThenChangeTextView.swift */; };
+		460B4E9C2923CA2300B47C4F /* CheckButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B4E9B2923CA2300B47C4F /* CheckButtonsView.swift */; };
 		462034C128B0E46D00540D3A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034C028B0E46D00540D3A /* Tests_iOS.swift */; };
 		462034C328B0E46D00540D3A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034C228B0E46D00540D3A /* Tests_iOSLaunchTests.swift */; };
 		462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034A828B0E46A00540D3A /* SwiftUI100KnocksApp.swift */; };
@@ -38,6 +39,9 @@
 		46C82B4F28BC3AE4001AFF45 /* ShowMenuPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C82B4E28BC3AE4001AFF45 /* ShowMenuPickerView.swift */; };
 		46C82B5128BC3B7A001AFF45 /* ShowSegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C82B5028BC3B7A001AFF45 /* ShowSegmentedPickerView.swift */; };
 		46C82B5328BC3BA7001AFF45 /* ShowInlinePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C82B5228BC3BA7001AFF45 /* ShowInlinePickerView.swift */; };
+		46C83FB429246EF300B6BD4D /* FullWidthButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C83FB329246EF300B6BD4D /* FullWidthButtonsView.swift */; };
+		46C83FB629246F0000B6BD4D /* NaturalWidthButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C83FB529246F0000B6BD4D /* NaturalWidthButtonsView.swift */; };
+		46C83FB92924726B00B6BD4D /* NGFullWidthButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C83FB82924726B00B6BD4D /* NGFullWidthButtonsView.swift */; };
 		46CC7CCE28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */; };
 		46CC7CD128BBA3D40016A7A8 /* Fluit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7CD028BBA3D40016A7A8 /* Fluit.swift */; };
 		46CC7CD428BBA8870016A7A8 /* ShowPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7CD328BBA8870016A7A8 /* ShowPickerView.swift */; };
@@ -108,6 +112,7 @@
 		460B4E932923BDC600B47C4F /* TabSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSecondView.swift; sourceTree = "<group>"; };
 		460B4E952923BDCE00B47C4F /* TabThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThirdView.swift; sourceTree = "<group>"; };
 		460B4E982923C47A00B47C4F /* TapThenChangeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapThenChangeTextView.swift; sourceTree = "<group>"; };
+		460B4E9B2923CA2300B47C4F /* CheckButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButtonsView.swift; sourceTree = "<group>"; };
 		462034A828B0E46A00540D3A /* SwiftUI100KnocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnocksApp.swift; sourceTree = "<group>"; };
 		462034A928B0E46A00540D3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		462034AA28B0E46D00540D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +126,9 @@
 		46C82B4E28BC3AE4001AFF45 /* ShowMenuPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMenuPickerView.swift; sourceTree = "<group>"; };
 		46C82B5028BC3B7A001AFF45 /* ShowSegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSegmentedPickerView.swift; sourceTree = "<group>"; };
 		46C82B5228BC3BA7001AFF45 /* ShowInlinePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInlinePickerView.swift; sourceTree = "<group>"; };
+		46C83FB329246EF300B6BD4D /* FullWidthButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullWidthButtonsView.swift; sourceTree = "<group>"; };
+		46C83FB529246F0000B6BD4D /* NaturalWidthButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalWidthButtonsView.swift; sourceTree = "<group>"; };
+		46C83FB82924726B00B6BD4D /* NGFullWidthButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGFullWidthButtonsView.swift; sourceTree = "<group>"; };
 		46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueBetweenScreensDetailView.swift; sourceTree = "<group>"; };
 		46CC7CD028BBA3D40016A7A8 /* Fluit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fluit.swift; sourceTree = "<group>"; };
 		46CC7CD328BBA8870016A7A8 /* ShowPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPickerView.swift; sourceTree = "<group>"; };
@@ -257,6 +265,15 @@
 			path = TapThenChangeText;
 			sourceTree = "<group>";
 		};
+		460B4E9A2923CA1100B47C4F /* CheckButtons */ = {
+			isa = PBXGroup;
+			children = (
+				460B4E9B2923CA2300B47C4F /* CheckButtonsView.swift */,
+				46C83FB72924701600B6BD4D /* Views */,
+			);
+			path = CheckButtons;
+			sourceTree = "<group>";
+		};
 		462034A228B0E46A00540D3A = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +335,7 @@
 		462034E728B0F03500540D3A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				460B4E9A2923CA1100B47C4F /* CheckButtons */,
 				2821269C28B9BFDF00053CEF /* HideNavigationViewView */,
 				462034E928B0F09000540D3A /* Home */,
 				287D25C028B8FF330000A5B7 /* ImagesSideBySide */,
@@ -366,6 +384,16 @@
 				46C82B4E28BC3AE4001AFF45 /* ShowMenuPickerView.swift */,
 				46C82B5028BC3B7A001AFF45 /* ShowSegmentedPickerView.swift */,
 				46C82B4C28BC3A49001AFF45 /* ShowWheelPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46C83FB72924701600B6BD4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46C83FB329246EF300B6BD4D /* FullWidthButtonsView.swift */,
+				46C83FB529246F0000B6BD4D /* NaturalWidthButtonsView.swift */,
+				46C83FB82924726B00B6BD4D /* NGFullWidthButtonsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -635,11 +663,13 @@
 			files = (
 				462034D228B0E46D00540D3A /* HomeView.swift in Sources */,
 				462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */,
+				46C83FB429246EF300B6BD4D /* FullWidthButtonsView.swift in Sources */,
 				2870F77C28B67A0C00718060 /* ResizeImageAndClipView.swift in Sources */,
 				46CC7CCE28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift in Sources */,
 				287D25C228B8FF7F0000A5B7 /* ImagesSideBySideView.swift in Sources */,
 				287D25BF28B8FEA60000A5B7 /* Assets-Constants.swift in Sources */,
 				460B4E992923C47A00B47C4F /* TapThenChangeTextView.swift in Sources */,
+				460B4E9C2923CA2300B47C4F /* CheckButtonsView.swift in Sources */,
 				46C82B5328BC3BA7001AFF45 /* ShowInlinePickerView.swift in Sources */,
 				460B4E922923BD0200B47C4F /* TabFirstView.swift in Sources */,
 				460B4E942923BDC600B47C4F /* TabSecondView.swift in Sources */,
@@ -650,11 +680,13 @@
 				46C82B4D28BC3A49001AFF45 /* ShowWheelPickerView.swift in Sources */,
 				463F8A5128BB967E00EC146E /* PassValueBetweenScreensView.swift in Sources */,
 				460B4E962923BDCE00B47C4F /* TabThirdView.swift in Sources */,
+				46C83FB92924726B00B6BD4D /* NGFullWidthButtonsView.swift in Sources */,
 				280B729E28B83AAD002966AE /* ResizeImageToCircleWithBorderView.swift in Sources */,
 				46C82B4F28BC3AE4001AFF45 /* ShowMenuPickerView.swift in Sources */,
 				287D25BE28B8FEA60000A5B7 /* L10n-Constants.swift in Sources */,
 				46C82B5128BC3B7A001AFF45 /* ShowSegmentedPickerView.swift in Sources */,
 				2870F77928B665D100718060 /* ResizeImageToFitView.swift in Sources */,
+				46C83FB629246F0000B6BD4D /* NaturalWidthButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
