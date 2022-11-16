@@ -38,6 +38,9 @@ struct HomeView: View {
                 NavigationLink(destination: TapThenChangeTextView()) {
                     Text("Buttonが押されたら文字を変える")
                 }
+                NavigationLink(destination: CheckButtonsView()) {
+                    Text("いろいろなButtonを使ってみる")
+                }
             }
         }
         .navigationTitle("100本ノック")
