@@ -16,8 +16,11 @@ struct CheckButtonsView: View {
             NavigationLink("Full Width Buttons") {
                 FullWidthButtonsView()
             }
+            NavigationLink("NG Full Width Buttons") {
+                NGFullWidthButtonsView()
+            }
         }
-        .navigationTitle("いろいろなボタンを使ってみる")
+        .navigationTitle("いろいろなボタン")
     }
 }
 
