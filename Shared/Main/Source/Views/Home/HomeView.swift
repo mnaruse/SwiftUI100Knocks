@@ -23,6 +23,7 @@ struct HomeView: View {
         case tripleTab
         case tapThenChangeText
         case checkButtons
+        case showAlert
 
         var id: RawValue {
             return rawValue
@@ -59,6 +60,9 @@ struct HomeView: View {
 
             case .checkButtons:
                 return "いろいろなButtonを使ってみる"
+
+            case .showAlert:
+                return "アラートを表示する"
             }
         }
 
@@ -93,6 +97,9 @@ struct HomeView: View {
 
             case .checkButtons:
                 CheckButtonsView()
+
+            case .showAlert:
+                ShowAlertView()
             }
         }
     }
