@@ -24,6 +24,7 @@ struct HomeView: View {
         case tapThenChangeText
         case checkButtons
         case showAlert
+        case switchAlertAndSheet
 
         var id: RawValue {
             return rawValue
@@ -63,6 +64,9 @@ struct HomeView: View {
 
             case .showAlert:
                 return "アラートを表示する"
+
+            case .switchAlertAndSheet:
+                return "アラートとシートを出し分ける"
             }
         }
 
@@ -100,6 +104,9 @@ struct HomeView: View {
 
             case .showAlert:
                 ShowAlertView()
+
+            case .switchAlertAndSheet:
+                SwitchAlertAndSheetView()
             }
         }
     }
