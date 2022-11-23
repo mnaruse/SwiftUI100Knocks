@@ -34,6 +34,7 @@
 		462034D028B0E46D00540D3A /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034A828B0E46A00540D3A /* SwiftUI100KnocksApp.swift */; };
 		462034D228B0E46D00540D3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462034A928B0E46A00540D3A /* HomeView.swift */; };
 		462034D428B0E46D00540D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462034AA28B0E46D00540D3A /* Assets.xcassets */; };
+		463D8E8C292E409500E0E68F /* PushFromButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463D8E8B292E409500E0E68F /* PushFromButtonView.swift */; };
 		463F8A5128BB967E00EC146E /* PassValueBetweenScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */; };
 		46C82B4B28BC3A07001AFF45 /* ShowAutomaticPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C82B4A28BC3A07001AFF45 /* ShowAutomaticPickerView.swift */; };
 		46C82B4D28BC3A49001AFF45 /* ShowWheelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C82B4C28BC3A49001AFF45 /* ShowWheelPickerView.swift */; };
@@ -123,6 +124,7 @@
 		462034BC28B0E46D00540D3A /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		462034C028B0E46D00540D3A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		462034C228B0E46D00540D3A /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		463D8E8B292E409500E0E68F /* PushFromButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushFromButtonView.swift; sourceTree = "<group>"; };
 		463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueBetweenScreensView.swift; sourceTree = "<group>"; };
 		46C82B4A28BC3A07001AFF45 /* ShowAutomaticPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAutomaticPickerView.swift; sourceTree = "<group>"; };
 		46C82B4C28BC3A49001AFF45 /* ShowWheelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWheelPickerView.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 				462034E928B0F09000540D3A /* Home */,
 				287D25C028B8FF330000A5B7 /* ImagesSideBySide */,
 				463F8A4F28BB964200EC146E /* PassValueBetweenScreens */,
+				463D8E8A292E408A00E0E68F /* PushFromButton */,
 				2870F77A28B679EC00718060 /* ResizeImageAndClip */,
 				280B729C28B83A87002966AE /* ResizeImageToCircleWithBorder */,
 				2870F77728B665B400718060 /* ResizeImageToFit */,
@@ -379,6 +382,14 @@
 				462034A928B0E46A00540D3A /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		463D8E8A292E408A00E0E68F /* PushFromButton */ = {
+			isa = PBXGroup;
+			children = (
+				463D8E8B292E409500E0E68F /* PushFromButtonView.swift */,
+			);
+			path = PushFromButton;
 			sourceTree = "<group>";
 		};
 		463F8A4F28BB964200EC146E /* PassValueBetweenScreens */ = {
@@ -697,6 +708,7 @@
 				460B4E922923BD0200B47C4F /* TabFirstView.swift in Sources */,
 				460B4E942923BDC600B47C4F /* TabSecondView.swift in Sources */,
 				46CC7CD428BBA8870016A7A8 /* ShowPickerView.swift in Sources */,
+				463D8E8C292E409500E0E68F /* PushFromButtonView.swift in Sources */,
 				46C82B4B28BC3A07001AFF45 /* ShowAutomaticPickerView.swift in Sources */,
 				460B4E8F2923BB5E00B47C4F /* TripleTabView.swift in Sources */,
 				2821269E28B9BFF900053CEF /* HideNavigationViewView.swift in Sources */,
