@@ -12,7 +12,8 @@ import SwiftUI
 struct HomeView: View {
     // MARK: Enums
 
-    enum Link: Int, CaseIterable, Identifiable {
+    /// 「簡単」セクションのリンク
+    enum EasySectionLink: Int, CaseIterable, Identifiable {
         case resizeImageToFit
         case resizeImageAndClip
         case resizeImageToCircleWithBorder
@@ -24,7 +25,6 @@ struct HomeView: View {
         case tapThenChangeText
         case checkButtons
         case showAlert
-        case switchAlertAndSheet
 
         var id: RawValue {
             return rawValue
@@ -64,9 +64,6 @@ struct HomeView: View {
 
             case .showAlert:
                 return "アラートを表示する"
-
-            case .switchAlertAndSheet:
-                return "アラートとシートを出し分ける"
             }
         }
 
@@ -104,9 +101,36 @@ struct HomeView: View {
 
             case .showAlert:
                 ShowAlertView()
+            }
+        }
+    }
 
+    /// 「ふつう」セクションのリンク
+    enum NormalSectionLink: Int, CaseIterable, Identifiable {
+        case switchAlertAndSheet
+        case pushFromButton
+
+        var id: RawValue {
+            return rawValue
+        }
+
+        var title: String {
+            switch self {
+            case .switchAlertAndSheet:
+                return "アラートとシートを出し分ける"
+
+            case .pushFromButton:
+                return "Buttonからプッシュ遷移をする（NavigationLinkを無効にする） "
+            }
+        }
+
+        @ViewBuilder var destination: some View {
+            switch self {
             case .switchAlertAndSheet:
                 SwitchAlertAndSheetView()
+
+            case .pushFromButton:
+                PushFromButtonView()
             }
         }
     }
@@ -116,7 +140,14 @@ struct HomeView: View {
     var body: some View {
         List {
             Section(header: Text("簡単")) {
-                ForEach(Link.allCases) { link in
+                ForEach(EasySectionLink.allCases) { link in
+                    NavigationLink(link.title) {
+                        link.destination
+                    }
+                }
+            }
+            Section(header: Text("ふつう")) {
+                ForEach(NormalSectionLink.allCases) { link in
                     NavigationLink(link.title) {
                         link.destination
                     }
