@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct PushFromButtonView: View {
+    @State private var isActive: Bool = false
+
     var body: some View {
-        Text("Hello, world.")
+        Button("Tap Me") {
+            isActive = true
+        }
+
+        NavigationLink(isActive: $isActive) {
+            PushFromButtonSecondView()
+        } label: {
+            EmptyView()
+        }
     }
 }
 

@@ -36,6 +36,7 @@
 		462034D428B0E46D00540D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462034AA28B0E46D00540D3A /* Assets.xcassets */; };
 		463D8E8C292E409500E0E68F /* PushFromButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463D8E8B292E409500E0E68F /* PushFromButtonView.swift */; };
 		463F8A5128BB967E00EC146E /* PassValueBetweenScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */; };
+		465F5D7329330C29006638C8 /* PushFromButtonSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465F5D7229330C29006638C8 /* PushFromButtonSecondView.swift */; };
 		46C82B4B28BC3A07001AFF45 /* ShowAutomaticPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C82B4A28BC3A07001AFF45 /* ShowAutomaticPickerView.swift */; };
 		46C82B4D28BC3A49001AFF45 /* ShowWheelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C82B4C28BC3A49001AFF45 /* ShowWheelPickerView.swift */; };
 		46C82B4F28BC3AE4001AFF45 /* ShowMenuPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C82B4E28BC3AE4001AFF45 /* ShowMenuPickerView.swift */; };
@@ -126,6 +127,7 @@
 		462034C228B0E46D00540D3A /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		463D8E8B292E409500E0E68F /* PushFromButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushFromButtonView.swift; sourceTree = "<group>"; };
 		463F8A5028BB967E00EC146E /* PassValueBetweenScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueBetweenScreensView.swift; sourceTree = "<group>"; };
+		465F5D7229330C29006638C8 /* PushFromButtonSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushFromButtonSecondView.swift; sourceTree = "<group>"; };
 		46C82B4A28BC3A07001AFF45 /* ShowAutomaticPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAutomaticPickerView.swift; sourceTree = "<group>"; };
 		46C82B4C28BC3A49001AFF45 /* ShowWheelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWheelPickerView.swift; sourceTree = "<group>"; };
 		46C82B4E28BC3AE4001AFF45 /* ShowMenuPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMenuPickerView.swift; sourceTree = "<group>"; };
@@ -387,6 +389,7 @@
 		463D8E8A292E408A00E0E68F /* PushFromButton */ = {
 			isa = PBXGroup;
 			children = (
+				465F5D7129330C17006638C8 /* Views */,
 				463D8E8B292E409500E0E68F /* PushFromButtonView.swift */,
 			);
 			path = PushFromButton;
@@ -399,6 +402,14 @@
 				46CC7CCD28BBA27D0016A7A8 /* PassValueBetweenScreensDetailView.swift */,
 			);
 			path = PassValueBetweenScreens;
+			sourceTree = "<group>";
+		};
+		465F5D7129330C17006638C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				465F5D7229330C29006638C8 /* PushFromButtonSecondView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		46C82B5428BC3BD5001AFF45 /* Views */ = {
@@ -714,6 +725,7 @@
 				2821269E28B9BFF900053CEF /* HideNavigationViewView.swift in Sources */,
 				46C82B4D28BC3A49001AFF45 /* ShowWheelPickerView.swift in Sources */,
 				463F8A5128BB967E00EC146E /* PassValueBetweenScreensView.swift in Sources */,
+				465F5D7329330C29006638C8 /* PushFromButtonSecondView.swift in Sources */,
 				460B4E962923BDCE00B47C4F /* TabThirdView.swift in Sources */,
 				46FB49CB292B9AFD00027827 /* ShowAlertView.swift in Sources */,
 				46C83FB92924726B00B6BD4D /* NGFullWidthButtonsView.swift in Sources */,
